@@ -7,9 +7,11 @@
   },
   "dependencies": {
     "elysia": "latest"
+    
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "@repo/db" : "workspace:*"
   },
   "module": "src/index.js"
 }
