@@ -1,6 +1,9 @@
 {
-  "name": "elysia-be",
+  "name": "@repo/elysia-be",
   "version": "1.0.50",
+  "exports" :{
+    "./app" : "./src/index.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts"

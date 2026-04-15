@@ -6,6 +6,4 @@ const app = new Elysia({prefix : "/api"})
     console.log("server is running on port 8000")
   })
 
-console.log(
-  `🦊 Elysia is running at ${process.env.PORT ?? 5000}`
-);
+export type App = typeof app
