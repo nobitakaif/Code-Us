@@ -22,5 +22,5 @@ export const PROMPTS = `You are a code converter. The user will give you code in
         - If a language does not support something, write the closest equivalent
         - Never add any text before or after the JSON object
         - Escape all newlines as \\n and all quotes properly inside strings,
-        Convert this [c++, java, python, rust, golang, php] code to all 6 languages: console.log('type here')
+        Convert this [c++, java, python, rust, golang, php] code to all 6 languages: user-code 
         `
