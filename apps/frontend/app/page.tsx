@@ -5,7 +5,8 @@ const app = treaty<App>(`${process.env.BACKEND_PORT && 'localhost:8000'}`)
 
 export default function Page(){
   
-  return <div>
-    alright
+  return <div className="bg-gray-900 h-screen">
+    
+      
   </div>
 }
